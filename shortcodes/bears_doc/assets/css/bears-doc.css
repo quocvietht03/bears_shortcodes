@@ -1,0 +1,43 @@
+.tbbs-group-tabs{
+	padding: 20px;
+	background: #FAFAFA;
+	border-radius: 1px;
+}
+.tbbs-group-tabs:not(:last-child){
+	margin-bottom: 20px;
+}
+.tbbs-group-tabs .title{
+	border-bottom: 1px solid #eee;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.tbbs-group-tabs .tbbs-tabs-content{
+	margin: 0;
+	padding: 0;
+	padding: 0 0 0 12px;
+}
+.tbbs-group-tabs .tbbs-tabs-content li{
+	font-size: 12px;
+    font-weight: bold;
+}
+.tbbs-group-tabs .tbbs-tabs-content li a{
+	
+}
+.tbbs-doc-des-line{
+	margin-bottom: 20px;
+}
+.tbbs-doc-des-line p strong{
+	min-width: 130px;
+}
+.tbbs-doc-image-note{
+	border-radius: 2px;
+    box-shadow: 0 0 8px -5px rgba(0, 0, 0, 0.9);
+    margin: 5px 0;
+    max-width: 100%;
+    padding: 7px;
+}
+.tbbs-doc-des{
+	margin: 20px 0;
+}
