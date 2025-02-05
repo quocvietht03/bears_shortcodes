@@ -378,17 +378,17 @@ function tbbs_settings_nav_tabs()
 function tbbs_register_scripts()
 {
 	$scripts = apply_filters( 'tbbs_register_scripts', array() );
-	$manager_scripts = get_option('tbbs_manager_scripts');
+	// $manager_scripts = get_option('tbbs_manager_scripts');
 
-	foreach( $scripts as $index => $script ) :
-		$inc = isset( $manager_scripts[$script['handle'].'_'.$script['type']] ) 
-			? $manager_scripts[$script['handle'].'_'.$script['type']]
-			: isset( $script['include'] ) 
-				? $script['include'] 
-				: 0;
+	// foreach( $scripts as $index => $script ) :
+	// 	$inc = isset( $manager_scripts[$script['handle'].'_'.$script['type']] ) 
+	// 		? $manager_scripts[$script['handle'].'_'.$script['type']]
+	// 		: isset( $script['include'] ) 
+	// 			? $script['include'] 
+	// 			: 0;
 
-		$scripts[$index]['include'] = $inc;
-	endforeach;
+	// 	$scripts[$index]['include'] = $inc;
+	// endforeach;
 
 	return $scripts;
 }
